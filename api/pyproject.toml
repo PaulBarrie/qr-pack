@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Sofiane Mezouani <mezoua_s@etna-alternance.net>", "Paul Barrié <barrie_p@etna-alternance.net>"]
+
+[tool.poetry.dependencies]
+python = "3.8.7"
+
+[tool.poetry.dev-dependencies]
+fastapi = "^0.63.0"
+uvicorn = "0.13.3"
+graphene = "^2.1.8"
+pymongo = "^3.1.12"
